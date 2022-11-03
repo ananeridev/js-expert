@@ -26,8 +26,8 @@ class File {
         return (await readFile(fileName)).toString("utf8")
     }
 
-    static isValid(csvStirng, options  = DEFAULT_OPTION) {
-        const [header, ...fileWithoutHeader] = csvStirng.split('\n')
+    static isValid(csvString, options = DEFAULT_OPTION) {
+        const [header, ...fileWithoutHeader] = csvString.split(/\r?\n/)
         const isHeaderValid = header === options.fields.join(',')
         if(!isHeaderValid) {
             return {
@@ -51,12 +51,3 @@ class File {
 
     }
 }
-
-(async () => {
-    const result  = await File.csvToJson('./../mocks/threeItems-valid.csv')
-    // const result  = await File.csvToJson('./../mocks/fourItems-invalid.csv')
-    // const result  = await File.csvToJson('./../mocks/invalid-header.csv')
-
-    console.log("result", result)
-    }
-)();
