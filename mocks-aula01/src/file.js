@@ -20,10 +20,8 @@ class File {
 
     // read the content according to the path
     static async getfileContent(filePath) {
-        const fileName = join(__dirname, filePath)
-
         //encoding
-        return (await readFile(fileName)).toString("utf8")
+        return (await readFile(filePath)).toString("utf8")
     }
 
     static isValid(csvString, options = DEFAULT_OPTION) {
@@ -51,3 +49,5 @@ class File {
 
     }
 }
+
+module.exports = File
