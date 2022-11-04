@@ -23,26 +23,26 @@ const { rejects, deepStrictEqual } = require('assert')
         const result = await File.csvToJson(filePath)
         const expected = [
             {
-              "id": 123,
               "name": "Ana Neri",
+              "id": 123,
               "profession": "Javscript Instructor",
-              "age": 22
+              "birthDay": 2000
             },
             {
-              "id": 321,
               "name": "Jane Doe",
+              "id": 321,
               "profession": "Java Developer",
-              "age": 30
+              "birthDay": 1990 
             },
             {
-              "id": 231,
               "name": "John Doe",
+              "id": 231,
               "profession": "Java Speclist",
-              "age": 50
+              "birthDay": 1971
             }
           ]
 
-          deepStrictEqual(result, expected)
+          deepStrictEqual(JSON.stringify(result), JSON.stringify(expected))
 
     }
 })()
