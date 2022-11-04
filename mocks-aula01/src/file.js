@@ -1,7 +1,7 @@
 const { readFile } = require('fs/promises')
-// pattern to normalize the path
-const { join} = require('path')
+const User = require('./user')
 const { error } = require('./constants')
+
 
 const DEFAULT_OPTION = {
     maxLines: 3,
@@ -15,7 +15,8 @@ class File {
         const validation = File.isValid(content)
         if(!validation.valid) throw new Error(validation.error)
 
-        return content
+        const users = File.parseCSVToJSON(content)
+        return users
     }
 
     // read the content according to the path
@@ -47,6 +48,22 @@ class File {
 
         return { valid: true }
 
+    }
+
+    static parseCSVToJSON(csvString) {
+        const lines = csvString.split('\n')
+        // remove the first item and put as a variable
+        const firstLine = lines.shift()
+        const header = firstLine.split(',')
+        const users = lines.map(line => {
+            const columns = line.split(',')
+            let user = {}
+            for(const index in columns) {
+                user[header[index]] = columns[index]
+            }
+            return new User(user)
+        })
+        return users
     }
 }
 
