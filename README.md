@@ -1,1 +1,1 @@
-# js-expert
+# js-expert course
