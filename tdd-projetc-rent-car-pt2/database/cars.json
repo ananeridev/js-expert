@@ -1,0 +1,23 @@
+[
+    {
+        "id": "79271110-0c36-49fa-8513-d37532ead36b",
+        "name": "Expedition",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "3631fdee-4ee4-46f4-b88f-9968c2067240",
+        "name": "LeBaron",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "52259d8f-ff68-4f19-a6ae-cd92f17a7946",
+        "name": "Aventador",
+        "releaseYear": 2022,
+        "available": true,
+        "gasAvailable": true
+    }
+]

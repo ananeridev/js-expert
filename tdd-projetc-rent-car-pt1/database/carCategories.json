@@ -1,1 +1,12 @@
-[{"id":"eebdf750-b70d-49f2-9cdb-5a9dcebc5d4b","name":"SUV","carIds":["b4902c53-686d-45a6-80d2-5c04855d60ec","53df2d85-2808-43fa-a580-3e326842a670","7c7fbf50-e819-4314-aa5f-f46b81b2a72c"],"price":70.42}]
+[
+    {
+        "id": "b4e68a35-2c66-48be-9bc2-2ee941b7101b",
+        "name": "Cargo Van",
+        "carIds": [
+            "31f962e0-c6f8-4950-98ea-cdafdd58f714",
+            "b950f329-c1b3-4503-924a-4bef74b0260d",
+            "c5f8b9f7-997b-48fe-b947-10093e85d9c2"
+        ],
+        "price": 63.28
+    }
+]
