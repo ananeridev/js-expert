@@ -5,7 +5,6 @@ const DEFAULT_PORT = 3000
 const DEFAULT_HEADERS = {
     'Content-Type': 'application/json'
 }
-// criei uma factory default (poderia estar em outro arquivo)
 const defaultFactory = () => ({
     carService: new CarService({ cars: './../database/cars.json' })
 })
@@ -17,7 +16,6 @@ class Api {
         this.carService = dependencies.carService
     }
 
-    // transformei em uma funçao
     generateRoutes() {
 
         return {
@@ -25,7 +23,6 @@ class Api {
                 for await (const data of request) {
                     try {
                         const { customer, carCategory, numberOfDays } = JSON.parse(data)
-                        // alguma validacao top aqui
                         const result = await this.carService.rent(customer, carCategory, numberOfDays)
 
                         response.writeHead(200, DEFAULT_HEADERS)
@@ -45,7 +42,6 @@ class Api {
                 for await (const data of request) {
                     try {
                         const { customer, carCategory, numberOfDays } = JSON.parse(data)
-                        // alguma validacao top aqui
                         const result = await this.carService.calculateFinalPrice(customer, carCategory, numberOfDays)
 
                         response.writeHead(200, DEFAULT_HEADERS)
@@ -103,7 +99,6 @@ class Api {
         return chosen(request, response)
     }
 
-    // criei uma funcao, que recebe as dependencias ou usa a factoryDefault
     initialize(port = DEFAULT_PORT) {
 
         const app = http.createServer(this.handler.bind(this))
