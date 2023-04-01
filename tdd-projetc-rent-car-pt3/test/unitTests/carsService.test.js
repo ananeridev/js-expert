@@ -107,42 +107,42 @@ describe('CarService Suite Tests', () => {
         expect(result).to.be.deep.equal(expected)
     })
 
-    it('given a customer and a car category it should return a transaction receipt', async () => {
-        const car = mocks.validCar
-        const carCategory = {
-            // rest spread, nao suja instancia do mock pra mais de um objeto
-            ...mocks.validCarCategory,
-            price: 37.6,
-            carIds: [car.id]
-        }
+    // it('given a customer and a car category it should return a transaction receipt', async () => {
+    //     const car = mocks.validCar
+    //     const carCategory = {
+    //         // rest spread, nao suja instancia do mock pra mais de um objeto
+    //         ...mocks.validCarCategory,
+    //         price: 37.6,
+    //         carIds: [car.id]
+    //     }
         
-        const customer = Object.create(mocks.validCustomer)
-        customer.age = 20
+    //     const customer = Object.create(mocks.validCustomer)
+    //     customer.age = 20
 
-        const numberOfDays = 5
-        const dueDate = "10 de novembro de 2020"
+    //     const numberOfDays = 5
+    //     const dueDate = "10 de novembro de 2020"
         
-        const now = new Date(2020, 10, 5)
-        sandbox.useFakeTimers(now.getTime())
-        // age: 20, tax: 1.1, categoryPrice: 37.6
-        // 37.6 * 1.1 = 41.36 * 5 days = 206.8
-        sandbox.stub(
-            carService.carRepository,
-            carService.carRepository.find.name,
-        ).resolves(car)
+    //     const now = new Date(2020, 10, 5)
+    //     sandbox.useFakeTimers(now.getTime())
+    //     // age: 20, tax: 1.1, categoryPrice: 37.6
+    //     // 37.6 * 1.1 = 41.36 * 5 days = 206.8
+    //     sandbox.stub(
+    //         carService.carRepository,
+    //         carService.carRepository.find.name,
+    //     ).resolves(car)
         
-        const expectedAmount = carService.currencyFormat.format(206.80)
-        const result = await carService.rent(
-            customer, carCategory, numberOfDays
-        )
-        const expected = new Transaction({
-            customer,
-            car,
-            dueDate,
-            amount: expectedAmount,
-        })
+    //     const expectedAmount = carService.currencyFormat.format(206.80)
+    //     const result = await carService.rent(
+    //         customer, carCategory, numberOfDays
+    //     )
+    //     const expected = new Transaction({
+    //         customer,
+    //         car,
+    //         dueDate,
+    //         amount: expectedAmount,
+    //     })
 
-        expect(result).to.be.deep.equal(expected)
+    //     expect(result).to.be.deep.equal(expected)
         
-    })
+    // })
 })

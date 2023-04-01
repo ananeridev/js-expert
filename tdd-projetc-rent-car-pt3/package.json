@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "seed": "node ./seed",
-    "test": "npx mocha -w --parallel **/**/*.test.js",
-    "test:cov": "npx nyc npx mocha --parallel **/**/*.test.js"
+    "start": "node src/api.js",
+    "test:dev": "NODE_ENV=test npx mocha -w --parallel **/**/*.test.js",
+    "test": "NODE_ENV=test npx mocha --parallel **/**/*.test.js",
+    "test:cov": "NODE_ENV=test npx nyc npx mocha --exit --parallel **/**/*.test.js",
+    "seed": "node ./seed"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +20,7 @@
     "chai": "^4.3.7",
     "mocha": "^8.4.0",
     "nyc": "^15.1.0",
-    "sinon": "^9.2.4"
+    "sinon": "^9.2.4",
+    "supertest": "^6.3.3"
   }
 }
