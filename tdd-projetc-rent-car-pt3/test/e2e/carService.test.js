@@ -7,7 +7,6 @@ const CarService = require('./../../src/service/carService')
 const Customer = require('./../../src/entities/customer')
 const Car = require('./../../src/entities/car')
 const SERVER_TEST_PORT = 4000
-// só importei, mas vou usá-la no Before
 
 const mocks = {
     validCar: require('./../mocks/valid-car.json'),
