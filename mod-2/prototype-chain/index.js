@@ -92,6 +92,6 @@ assert.deepStrictEqual(t3.__proto__.__proto__.__proto__, T1.prototype)
 assert.deepStrictEqual(t3.__proto__.__proto__.__proto__.__proto__, Object.prototype)
 assert.deepStrictEqual(t3.__proto__.__proto__.__proto__.__proto__.__proto__, null)
 
-// Quando falamos que tudo no javascrirpt do objeto e o  __proto__ do objeto aponta pra null podemos falar que todos os objetos sao nulos?
+// Quando fala-se que tudo no javascrirpt do objeto e o  __proto__ do objeto aponta pra null podemos falar que todos os objetos sao nulos?
 
 
