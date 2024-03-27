@@ -11,6 +11,7 @@ const evaluateRegexSafety = (regex) => {
     if (!safeRegex(regex)) {
         throw new InvalidRegexError(regex);
     }
+    return true;
 }   
 
 module.exports = { evaluateRegexSafety, InvalidRegexError}
