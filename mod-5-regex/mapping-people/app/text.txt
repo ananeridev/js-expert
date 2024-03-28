@@ -1,0 +1,138 @@
+Pelo presente instrumento particular de contrato de Prestação de Serviços, as partes abaixo 
+qualificadas, resolvem ajustar as cláusulas seguintes: 
+1º CONTRATANTE: Xuxa da Silva, brasileira, casada, CPF 235.743.420-12, residente e 
+domiciliada a Rua dos bobos, zero, bairro Alphaville, São Paulo. 
+2º CONTRATANTE: Arya Robbin, belga, casado, CPF 884.112.200-52, residente e 
+domiciliada a Av. paulista, 1400, bairro Consolação, São Paulo. 
+CONTRATADA: Júlia Menezes, brasileira, solteira, CPF 297.947.800-81, residente e 
+domiciliada a Av. dos Estados, 99, bairro Jardins, São Paulo. 
+OBJETO DO CONTRATO 
+Cláusula 01 - O presente contrato tem por objetivo o desenvolvimento de site, software e 
+aplicativo Hibrido. 
+Cláusula 02 - Serão de propriedade da CONTRATANTE todos os programas, módulos, 
+manuais, documentação associada e sistemas, resultantes deste contrato, sendo proibido seu uso 
+ou comercialização pela CONTRATADA. 
+Cláusula 03 - O projeto será dividido em 4 (quatro) módulos quais sejam: Estabelecimento 
+parceiro, Courrier, Cliente e Central) 
+Cláusula 04 - Os CONTRATANTES serão responsáveis por definir os projetos a que se refere o 
+item 1, especificando sua abrangência e prazo. 
+Cláusula 05 – O presente contrato trata-se de trabalho autônomo de prestação de serviços, não 
+havendo nenhum vínculo empregatício com os CONTRATANTES. 
+PRAZO DE ENTREGA 
+Cláusula 06 - As atividade de desenvolvimento serão iniciados pela CONTRATADA no dia 26 
+de fevereiro de 2018. 
+Cláusula 07 - O prazo estabelecido para entrega final será de 3 (três) meses. Incluindo as fases 
+de testes, integração e entrega de documentação. 
+Cláusula 08 - Após a entrega de cada módulo este será testado pelos CONTRATANTES, e 
+considerado finalizado após aprovação dos testes. 
+Cláusula 09 – O prazos de cada módulos estão especificados no anexo 01 do presente contrato 
+OBRIGAÇÕES DOS CONTRATANTES 
+Cláusula 10 – Fornecer as especificações necessárias para a realização dos trabalhos que serão 
+realizados pela CONTRATADA. Acompanhar e aprovar os testes, a integração e a 
+documentação 
+Cláusula 11 - OS CONTRATANTES reembolsarão a CONTRATADA em até 5 (cinco) dias 
+úteis, contados da apresentação de comprovante dos gastos, por eventuais despesas de viagem e 
+estadia fora da cidade de Curitiba, que se fizerem necessárias para a execução do projeto aqui 
+pactuado, mediante prévia aprovação da viagem por escrito. 
+OBRIGAÇÕES DA CONTRATADA 
+Cláusula 12 - A CONTRATADA executará os projetos de trata esse contrato, com estrita 
+observância das especificações técnicas e visuais indicadas pelos CONTRATANTES. 
+Cláusula 13 - A CONTRATADA submeterá a prévia aprovação, por escrito, pelos 
+CONTRATANTES ou seu representante constituído todas as despesas extras com o projeto. 
+Cláusula 14 - Garantir que a instalação, a elaboração de novos programas, objeto deste ajuste, 
+não infrinjam quaisquer direitos de propriedade intelectual, tais como patentes e direitos autorais, 
+responsabilizando-se pelos prejuízos resultantes e eventuais danos causados. 
+Cláusula 15 – Quaisquer profissionais utilizados pelos CONTRATANTES para auxiliar, 
+visando a qualidade da entrega e do produto final, será de sua inteira responsabilidade. 
+
+VALORES DO DESENVOLVIMENTO e REALIZAÇÃO  
+Cláusula 16 – Os valor total do desenvolvimento objeto desse contrato será de xxxx (xxxx reais) 
+que será dividido da forma abaixo:  
+FORMA DE PAGAMENTO  
+Cláusula 17 – Pelo projeto pactuado no item “1”, os CONTRATANTES pagarão à 
+CONTRATADA o valor de 40% no início de cada Modulo, 40% na entrega do Modulo e 20% 
+de cada módulo no final do projeto, após os testes e a integração com a completa documentação 
+dos programas fontes dos 4 módulos e de todas as interfaces utilizadas no projeto. O valor será 
+depositado na conta indicada pela contratante mediante recibo ou Nota Fiscal. 
+Cláusula 18 -  O valor mensal de manutenção do sistema será cobrado após a entrega de forma 
+satisfatória do aplicativo, de acordo com entregas e escopo pré-definido e aprovados por ambas 
+as partes. 
+O valor de manutenção não inclui mudanças ou novas funcionalidades no sistema.  
+RESCISÃO CONTRATUAL  
+Cláusula 19 – O presente contrato poderá ser rescindido pelas partes mediante notificação 
+extrajudicial e escrita com aviso de recebimento se dará mediante notificação escrita com prazo 
+de antecedência mínimo de 30 dias do encerramento da atividade. Podendo ser rescindindo de 
+comum acordo a qualquer tempo. 
+Cláusula 20 - A CONTRATANTE poderá rescindir o presente contrato, independentemente de 
+qualquer notificação judicial ou extrajudicial, nas seguintes hipóteses: 
+a) inadimplência reiterada de qualquer cláusula ou condição do presente contrato; 
+b) decretação de falência/insolvência ou pedido de concordata da CONTRATADA; 
+c) nos demais casos previstos na legislação em vigor. 
+Cláusula 21 – A rescisão antes do término do módulo, bem como do projeto geral, não implicará 
+o pagamento dos valores devidos a título de finalização parcial do módulo interrompido e geral 
+do software/site/aplicativo. Em outras palavras, os 40% a serem entregues na finalização de cada 
+módulo não terminado e os 20% de cada módulo incluindo fase de integração, testes e 
+documentação, mesmo os finalizados, que seriam entregues na finalização geral. 
+Cláusula 22 – O valor de 40% pago para o início do módulo será ressarcido caso a 
+CONTRATADA não tenha finalizado 50% do respectivo módulo na data da rescisão ensejada 
+pela CONTRATADA. 
+Cláusula 23 – Com a rescisão do contrato a CONTRATADA entregará para os 
+CONTRATANTES todo o desenvolvimento feito até sua data, com as especificações técnicas 
+detalhadas e demais dúvidas sanadas. 
+Clausula 24 - Fica convencionado que a parte que reiteradamente infringir qualquer cláusula 
+constante deste contrato pagará à outra parte multa equivalente a 50 % do valor total do projeto, 
+sem prejuízo da rescisão automática ora pactuado. 
+Cláusula 25 - Nenhuma das partes será responsável perante a outra por qualquer falha ou atraso 
+no cumprimento das obrigações constantes do presente contrato, causados por casos fortuitos ou 
+força maior. 
+TERMOS DE CONFIDENCIALIDADE & SIGILO 
+Cláusula 26 – A CONTRATADA se compromete em manter sigilo sobre as informações 
+trocadas e geradas durante a execução das atividades do presente CONTRATO, não revelar nem 
+transmitir direta ou indiretamente as informações trocadas a terceiros que não estejam envolvidos 
+no desenvolvimento do objeto deste CONTRATO. Mesmo com ex membros do projeto. 
+Cláusula 27 - Os partícipes, para fins de sigilo, obrigam-se por seus empregados. 
+
+Cláusula 28 - O descumprimento da obrigação de sigilo e confidencialidade importará: 
+a) na extinção do presente instrumento, se ainda vigente, dentro das formas nele permitida; 
+b) em qualquer hipótese, na responsabilidade por perdas e danos; 
+c) adoção dos remédios jurídicos e sanções cabíveis por força do Decreto nº 1355/94 e demais 
+legislação pertinente; 
+Cláusula 29 - Só serão legítimos como motivos de exceção à obrigatoriedade de sigilo, a 
+ocorrência de descumprimento nas seguintes hipóteses: 
+a) a informação já era conhecida anteriormente às tratativas do negócio jurídico; 
+b) houve prévia e expressa anuência das partes, quanto à liberação da obrigação de sigilo e 
+confidencialidade; 
+c) a informação foi comprovadamente obtida por outra fonte, de forma legal e legítima, 
+independentemente do presente instrumento jurídico; 
+d) determinação judicial e/ou governamental para conhecimento das informações, desde que 
+notificada imediatamente os CONTRATANES, previamente à liberação. 
+DOS EQUIPAMENTOS 
+Cláusula 30 - Os CONTRATANTES comprarão para a CONTRATADA um computador Dell 
+A20G no valor de R$ 3.859,99 (três mil oitocentos e cinquenta e nove e sessenta e seis reais e 
+noventa e nove centavos) computador da escolha da CONTRATADA que será de sua posse e 
+propriedade. O valor será parcelado em 4x de R$ 965,00 (novecentos e sessenta e cinco reais) 
+constante em 4 notas promissórias de números 0001, 0002, 0003, 0004 e as parcelas descontadas 
+do pagamento inicial de cada módulo. 
+Cláusula 31 – Em caso de rescisão, a CONTRATADA terá a opção de quitar o restante total do 
+valor devido do equipamento no dia da rescisão ou de devolver o equipamento. 
+GARANTIA 
+Cláusula 32 –  Após a entrega total do projeto objeto desse contrato, a CONTRATADA, se 
+obriga a fornecer uma garantia de 3 (tres) meses para consertos de eventuais erros de 
+programação sem custos para os CONTRATANTES. (chamados “bugs” do site, software e 
+aplicativo hibrido do Ifit) 
+FORO 
+Cláusula 33 – As partes elegem o foro da comarca de Curitiba (PR), na forma de mediação 
+extrajudicial, para dirimir quaisquer conflitos ensejados pelo descumprimento do presente 
+contrato. 
+E por estarem assim justas e acertadas, as partes firmam o presente instrumento em 3 (tres) vias 
+de igual teor e forma, assinadas e rubricadas, tudo na presença das duas testemunhas abaixo: 
+São Paulo, 11 de Dezembro de 2020 
+ 
+1ª CONTRATANTE:  
+ 
+ 
+2ºCONTRATANTE:
+ 
+ 
+CONTRATADA: 
+ 
