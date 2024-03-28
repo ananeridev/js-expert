@@ -1,17 +1,18 @@
 const safeRegex = require('safe-regex');
 
 class InvalidRegexError extends Error {
-    constructor(regex) {
-        super(`Invalid regex: ${regex}`);
-        this.name = 'InvalidRegexError';
+    constructor(exp) {
+        super(`This ${exp} is unsafe dude!`)
+        this.name = "InvalidRegexError"
     }
-}   
+}
 
-const evaluateRegexSafety = (regex) => {
-    if (!safeRegex(regex)) {
-        throw new InvalidRegexError(regex);
-    }
-    return true;
-}   
+const evaluateRegex = (exp) => {
+    const isSafe = safeRegex(exp)
+    if(isSafe) return exp
 
-module.exports = { evaluateRegexSafety, InvalidRegexError}
+    throw new InvalidRegexError(exp)
+}
+
+
+module.exports = { evaluateRegex, InvalidRegexError}
