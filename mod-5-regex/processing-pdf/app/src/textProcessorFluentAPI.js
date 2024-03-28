@@ -31,6 +31,9 @@ class TextProcessorFluentAPI {
 
         return this
     }
+    divideTextInColumns() {
+        return this
+    }
     build() {
         return this.#content;
     }
