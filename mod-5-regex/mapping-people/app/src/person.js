@@ -13,6 +13,9 @@ class Person {
         bairro,
         estado,
     ]) {
+
+    // (\w+):\s.*
+    // $1,
         
         // ^ -> começo da string
         //  + -> um ou mais ocorrencias
