@@ -8,3 +8,8 @@ factory:
 - Arquitetura N-Camada ou N-tier - pra dividir responsabilidades do sistetma 
     - injeção de dependencia - nao podemos depender da classe concreta
     - lib rewrite que simula o banco de dados e retorna um objeto stub
+
+- ABSTRACT FACTORY
+    - javascript isomorfico
+    - interfaces dinamicas
+    - browser - index.mjs - factory dinamica
