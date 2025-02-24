@@ -13,3 +13,15 @@ factory:
     - javascript isomorfico
     - interfaces dinamicas
     - browser - index.mjs - factory dinamica
+
+
+------------
+ Template method
+A proposta do padrão é estabelecer um fluxo de métodos a serem executados
+
+geralmente uma classe abstrata
+
+
+ - Gerenciamento de usuarios
+    - abre conexoes e fecha todo momento que ira fazer uma conexão - código duplicado!
+    
