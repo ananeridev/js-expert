@@ -16,17 +16,37 @@ describe('#BaseBusiness', () => {
         expect(() => baseBusiness.create({})).toThrow();
     });
     test('should throw and error when child class doesnt implement __create function', () => {
-        const baseBusiness = new BaseBusiness();
-        baseBusiness._validateRequiredFields = jest.fn(() => true);
-        expect(() => baseBusiness.create({})).toThrow();
+        const VALIDATION_SUCCESSED = true;
+        class ConcreteClass extends BaseBusiness {
+            _validateRequiredFields() {
+                return VALIDATION_SUCCESSED;
+            }
+        }
+
+        const concreteClass = new ConcreteClass();
+        const validationError = new NotImplementedException(concreteClass._create.name);
+        expect(() => concreteClass.create({})).toThrow(validationError);
     });
     test('should call _create and __validateRequiredFields on create', () => {
-        const baseBusiness = new BaseBusiness();
-        baseBusiness._validateRequiredFields = jest.fn(() => true);
-        baseBusiness._create = jest.fn();
-        baseBusiness.create({});
-        expect(baseBusiness._validateRequiredFields).toHaveBeenCalled();
-        expect(baseBusiness._create).toHaveBeenCalled();
+        const VALIDATION_SUCCESSED = true;
+        const CREATE_SUCCESSED = true;
+
+        class ConcreteClass extends BaseBusiness {
+            _validateRequiredFields = jest.fn(() => VALIDATION_SUCCESSED);
+            _create = jest.fn(() => CREATE_SUCCESSED);
+        }
+
+        const concreteClass = new ConcreteClass();
+        const createFromBaseClass = jest.spyOn(
+            BaseBusiness.prototype,
+            BaseBusiness.prototype.create.name
+        )
+
+        const result = concreteClass.create({});
+        expect(result).toBeTruthy();
+        expect(createFromBaseClass).toHaveBeenCalled();
+
+
     }) 
 
 })
